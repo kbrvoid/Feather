@@ -91,7 +91,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 1, ../scss/_opr.scss */
 .opr-page {
   position: fixed;
-  height: 100%;
+  height: 110%;
   width: 100%;
 }
 
