@@ -27,6 +27,13 @@ html {
   color:white;
   line-height: 1;
 }
+.home {
+  width: 100%;
+  position: relative;
+  text-align: center; }
+  .home h1:after {
+    content: attr(title);
+    position: absolute; }
 #hero {
     text-align:center;
         font-family: 'Varela Round', 'Century Gothic', sans-serif;
