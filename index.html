@@ -225,7 +225,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                        <div class="opr-next"></div>
     </div>
     <div class="opr-page sixth" data-target="6">
-                        <pre class="language-markup"> <code class="language-markup">&lt;!-- Link to Feather --&gt;
+                        <pre class="language-markup"> <code class="language-markup" id="code-demo">&lt;!-- Link to Feather --&gt;
 &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://raw.githubusercontent.com/KingPixil/Feather/gh-pages/feather.min.css&quot;/&gt;
 &lt;!-- Make a row with everything in the center --&gt;
 &lt;div class=&quot;row text-center&quot;&gt;
@@ -244,6 +244,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 &lt;input type=&quot;checkbox&quot; name=&quot;checkbox&quot; id=&quot;checkbox:checkbox-1&quot;/&gt;
     &lt;label for=&quot;checkbox:checkbox-1&quot; class=&quot;checkbox-label&quot;&gt;Checkbox&lt;/label&gt;
 &lt;/div&gt;</code></pre>
+<button class="btn btn-2" data-clipboard-target="#code-demo">
+    <img src="assets/clippy.svg" alt="Copy to clipboard">
+</button>
         <p>&nbsp;</p>
     </div>
 </div>
@@ -251,7 +254,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="js/jquery.touchSwipe.min.js"></script>
     <script src="js/prism.min.js"></script>
+    <script src="js/clipboard.min.js"></script>
 <script src="js/opr.js"></script>
-
+<script>
+	new Clipboard('.c-btn');
+</script>
 </body>
 </html>
