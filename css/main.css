@@ -94,7 +94,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 100%;
   width: 100%;
 }
-
+.opr-page-f {
+  height: 115%;
+  width: 100%;
+}
 /* line 6, ../scss/_opr.scss */
 .opr-current {
   z-index: 99;
