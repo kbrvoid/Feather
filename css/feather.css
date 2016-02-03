@@ -371,14 +371,12 @@ a:hover {
 .btn-5 {
   background: -webkit-linear-gradient(65deg, #1DDD77, #1C6FE3);
   background: linear-gradient(25deg, #1DDD77, #1C6FE3);
-  display: table;
   background-size: 200% 200% !important;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
   padding: 1.3em 1.5em;
-  margin: 1.5em auto;
   border-radius: 0.3em;
   -webkit-transition: all 200ms linear;
 }
@@ -399,11 +397,9 @@ a:hover {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
-  display: inline-block;
   -webkit-box-shadow: 0px 3px 0px 0px #309383;
   -moz-box-shadow: 0px 3px 0px 0px #309383;
   box-shadow: 0px 3px 0px 0px #309383;
-  margin: 60px 0 0;
   font-weight: bold;
 }
 
