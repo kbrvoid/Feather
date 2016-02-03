@@ -242,12 +242,11 @@ body {
     font-size: 10vh;
 }
 .love {
-  color: #666;
   font-size: 12px;
   text-align: center;
 }
 .love a {
-  color: #000000;
+  color: #1dd2af;
   text-decoration: none;
 }
 .love .fa {
