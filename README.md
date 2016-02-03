@@ -32,13 +32,16 @@ See my [180 Websites in 180 Days Project](http://180io.com) for some more fun!
    The above example will make a div span six columns. Just add the class column, and one-twelve.
    
    4. You did it!
+
 ### Buttons
    1. Just add the class btn and btn-1 through btn-6.
+
 ### Animations
    Add the class "animate" and the name of the animation, so far there is:
    * bounce
    * bounceIn
    * fadeIn
+
 ## Licensing
 
 * See [LICENSE](LICENSE)
