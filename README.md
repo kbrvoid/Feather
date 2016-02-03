@@ -30,6 +30,7 @@ See my [180 Websites in 180 Days Project](http://180io.com) for some more fun!
    <div class="span six"></div>
    ```
    The above example will make a div span six columns. Just add the class column, and one-twelve.
+   
    4. You did it!
 ### Buttons
    1. Just add the class btn and btn-1 through btn-6.
