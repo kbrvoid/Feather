@@ -33,7 +33,7 @@ html {
   text-align: center; }
   .home h1:after {
     content: attr(title);
-    font-size: 0.25em;
+    font-size: 0.20em;
     position: absolute; }
 #hero {
     text-align:center;
