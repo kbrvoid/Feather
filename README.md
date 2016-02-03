@@ -20,21 +20,21 @@ See my [180 Websites in 180 Days Project](http://180io.com) for some more fun!
    <link rel="stylesheet" href="https://raw.githubusercontent.com/KingPixil/Feather/master/feather.min.css"/>
    ```
 ### The grid
-   1. The grid is made up of rows and columns.
-   2. Make a row by adding
+1. The grid is made up of rows and columns.
+2. Make a row by adding
    ```
    class="row"
    ```
-   3. A row is made up of twelve columns, to make a column, do:
+3. A row is made up of twelve columns, to make a column, do:
    ```
    <div class="span six"></div>
    ```
    The above example will make a div span six columns. Just add the class column, and one-twelve.
    
-   4. You did it!
+4. You did it!
 
 ### Buttons
-   1. Just add the class btn and btn-1 through btn-6.
+1. Just add the class btn and btn-1 through btn-6.
 
 ### Animations
    Add the class "animate" and the name of the animation, so far there is:
