@@ -244,16 +244,6 @@ body {
 .love {
   color: #666;
   font-size: 12px;
-  display: block;
-  position: absolute;
-  bottom: 10px;
-  position: absolute;
-  width: 90%;
-  left: 50%;
-  top: 45%;
-  bottom: auto;
-  right: auto;
-  transform: translateX(-50%) translateY(-50%);
   text-align: center;
 }
 .love a {
