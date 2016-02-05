@@ -524,18 +524,6 @@ form {
   text-align: center;
 }
 
-.space {
-  padding: 50px;
-}
-
-.small-space {
-  padding: 15px;
-}
-
-.xtra-small-space {
-  padding: 5px;
-}
-
 .left,
 .right {
   display: inline-block;
