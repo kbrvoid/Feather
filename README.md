@@ -17,7 +17,8 @@ See my [180 Websites in 180 Days Project](http://180io.com) for some more fun!
 ## How to Use
 1. Link to Feather
    ```
-   <link rel="stylesheet" href="https://raw.githubusercontent.com/KingPixil/Feather/master/feather.min.css"/>
+   <link rel="stylesheet" href="https://raw.githubusercontent.com/KingPixil/Feather/gh-pages/css/feather.css"/>
+   <script src="https://raw.githubusercontent.com/KingPixil/Feather/gh-pages/js/feather.js"></script>
    ```
    
 ### The grid
