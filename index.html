@@ -226,31 +226,61 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     </div>
     <div class="opr-page footer sixth" data-target="6">
                         <pre class="language-markup"> <code class="language-markup" id="code-demo">&lt;!-- Link to Feather --&gt;
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://raw.githubusercontent.com/KingPixil/Feather/gh-pages/feather.min.css&quot;/&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://kingpixil.github.io/Feather/css/feather.css&quot; /&gt;
+&lt;script src=&quot;http://kingpixil.github.io/Feather/js/feather.js&quot;&gt;&lt;/script&gt;
 &lt;!-- Make a row with everything in the center --&gt;
-&lt;div class=&quot;row text-center&quot;&gt;
-  &lt;div class=&quot;animate bounce infinite&quot;&gt;
+&lt;div class=&quot; row text-center &quot;&gt;
+  &lt;div class=&quot;animate bounce infinite &quot;&gt;
+    &lt;h1&gt;
     Feather
+    &lt;/h1&gt;
   &lt;/div&gt;
-&lt;!-- Buttons =&gt; Add class btn + btn-outline, btn-3d, btn-round, or btn-gradient --&gt;
-&lt;button class=&quot;btn btn-3d &quot;&gt;Button&lt;/button&gt;
-&lt;!-- Checkbox --&gt;
-&lt;input type=&quot;checkbox&quot; name=&quot;checkbox&quot; id=&quot;checkbox:checkbox-1&quot;/&gt;
-    &lt;label for=&quot;checkbox:checkbox-1&quot; class=&quot;checkbox-label&quot;&gt;Checkbox&lt;/label&gt;
-&lt;/div&gt;</code></pre>
+  &lt;div class=&quot;row text-center&quot;&gt;
+    &lt;!-- Buttons =&gt; Add class btn + btn-outline, btn-3d, btn-round, or btn-gradient --&gt;
+    &lt;button class=&quot;btn btn-3d &quot;&gt;Click Me&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Make a script to do something when the button is clicked, using Feather.js --&gt;
+&lt;script&gt;
+  $('button').on(&quot;click&quot;, function(event) {
+  	alert(&quot;This is FEATHER.js&quot;);
+    if ($(&quot;button &quot;).hasClass(&quot;btn-3d&quot;)) {
+    $(&quot;button&quot;).removeClass('btn-3d');
+    $(&quot;button&quot;).addClass(&quot;btn-gradient&quot;);
+    } else {
+    $(&quot;button&quot;).removeClass(&quot;btn-gradient&quot;);
+    $(&quot;button&quot;).addClass(&quot;btn-3d&quot;);
+    };
+  });
+&lt;/script&gt;</code></pre>
 <button class="c-btn btn btn-3d" data-clipboard-text="&lt;!-- Link to Feather --&gt;
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://raw.githubusercontent.com/KingPixil/Feather/gh-pages/feather.min.css&quot;/&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://kingpixil.github.io/Feather/css/feather.css&quot; /&gt;
+&lt;script src=&quot;http://kingpixil.github.io/Feather/js/feather.js&quot;&gt;&lt;/script&gt;
 &lt;!-- Make a row with everything in the center --&gt;
-&lt;div class=&quot;row text-center&quot;&gt;
-  &lt;div class=&quot;animate bounce infinite&quot;&gt;
+&lt;div class=&quot; row text-center &quot;&gt;
+  &lt;div class=&quot;animate bounce infinite &quot;&gt;
+    &lt;h1&gt;
     Feather
+    &lt;/h1&gt;
   &lt;/div&gt;
-&lt;!-- Buttons =&gt; Add class btn + btn-outline, btn-3d, btn-round, or btn-gradient --&gt;
-&lt;button class=&quot;btn btn-3d &quot;&gt;Button&lt;/button&gt;
-&lt;!-- Checkbox --&gt;
-&lt;input type=&quot;checkbox&quot; name=&quot;checkbox&quot; id=&quot;checkbox:checkbox-1&quot;/&gt;
-    &lt;label for=&quot;checkbox:checkbox-1&quot; class=&quot;checkbox-label&quot;&gt;Checkbox&lt;/label&gt;
-&lt;/div&gt;">Copy to Clipboard</button>
+  &lt;div class=&quot;row text-center&quot;&gt;
+    &lt;!-- Buttons =&gt; Add class btn + btn-outline, btn-3d, btn-round, or btn-gradient --&gt;
+    &lt;button class=&quot;btn btn-3d &quot;&gt;Click Me&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Make a script to do something when the button is clicked, using Feather.js --&gt;
+&lt;script&gt;
+  $('button').on(&quot;click&quot;, function(event) {
+  	alert(&quot;This is FEATHER.js&quot;);
+    if ($(&quot;button &quot;).hasClass(&quot;btn-3d&quot;)) {
+    $(&quot;button&quot;).removeClass('btn-3d');
+    $(&quot;button&quot;).addClass(&quot;btn-gradient&quot;);
+    } else {
+    $(&quot;button&quot;).removeClass(&quot;btn-gradient&quot;);
+    $(&quot;button&quot;).addClass(&quot;btn-3d&quot;);
+    };
+  });
+&lt;/script&gt;">Copy to Clipboard</button>
         <p>&nbsp;</p>
     </div>
 </div>
