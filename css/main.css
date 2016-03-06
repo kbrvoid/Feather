@@ -27,6 +27,14 @@ html {
   color:white;
   line-height: 1;
 }
+.home {
+  width: 100%;
+  position: relative;
+  text-align: center; }
+  .home h1:after {
+    content: attr(title);
+    font-size: 0.20em;
+    position: absolute; }
 #hero {
     text-align:center;
         font-family: 'Varela Round', 'Century Gothic', sans-serif;
@@ -40,7 +48,7 @@ html {
     font-size: 10vh;
 }
 #hero p {
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 /* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
@@ -86,7 +94,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 100%;
   width: 100%;
 }
-
+.footer {
+  height: 115%;
+  width: 100%;
+}
 /* line 6, ../scss/_opr.scss */
 .opr-current {
   z-index: 99;
@@ -229,4 +240,30 @@ body {
 }
 .mega {
     font-size: 10vh;
+}
+.love {
+  font-size: 12px;
+  text-align: center;
+}
+.love a {
+  color: black;
+  text-decoration: none;
+}
+.love .fa {
+  color: #E90606;
+  margin: 0 3px;
+  font-size: 10px;
+  animation: pound 0.35s infinite alternate;
+  -webkit-animation: pound 0.35s infinite alternate;
+}
+
+@-webkit-keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
 }
