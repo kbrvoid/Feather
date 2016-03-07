@@ -1,7 +1,7 @@
 {
   "name": "Feather.js",
   "version": "0.0.0",
-  "description": "A lightweight library to select DOM elements"
+  "description": "A lightweight library to select DOM elements",
   "main": "/dist/js/feather.js",
   "scripts": {
   },
