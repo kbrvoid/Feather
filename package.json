@@ -4,7 +4,6 @@
   "description": "A lightweight library to select DOM elements"
   "main": "/dist/js/feather.js",
   "scripts": {
-    "test": "echo "Error: no test specified" && exit 1"
   },
   "repository": {
     "type": "git",
