@@ -1,5 +1,5 @@
 {
-  "name": "Feather.js",
+  "name": "featherjs",
   "version": "0.1.0",
   "description": "A lightweight library to select DOM elements",
   "main": "/dist/js/feather.js",
