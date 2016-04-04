@@ -21,6 +21,7 @@
 - Media Queries
 */
 
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
 
@@ -124,7 +125,7 @@ body {
   font-size: 1.5em;
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Quicksand", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Varela Round", "Quicksand", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -141,6 +142,7 @@ h6 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300;
+  font-family: 'Varela Round';
 }
 
 h1 {
@@ -205,6 +207,7 @@ h6 {
 
 p {
   margin-top: 0;
+  font-family :"Quicksand", "Raleway";
 }
 
 
